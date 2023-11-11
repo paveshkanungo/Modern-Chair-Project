@@ -129,6 +129,7 @@ label.color-6 {
 }
 
 .img-wrap.chair-2 {
+    opacity: 0;
     background-image: url(Chairpics/chair2.png);
 }
 
@@ -138,13 +139,14 @@ label.color-6 {
 }
 
 .img-wrap.chair-3 {
+    opacity: 0;
     background-image: url(Chairpics/chair3.png);
 }
 
 .for-color-3:checked ~ .img-wrap.chair-3{
     opacity: 1;
     animation: shake 0.7s cubic-bezier(0.36, 00.7, 0.19, 0.97) both;
-} 
+}
 
 .img-wrap.chair-4 {
     background-image: url(Chairpics/chair4.png);
